@@ -1,4 +1,4 @@
-# system.prop for expressltexx
+# system.prop for loganreltexx
 #
 
 rild.libpath=/system/lib/libril-qc-qmi-1.so

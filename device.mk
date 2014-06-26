@@ -15,7 +15,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/expressltexx/expressltexx-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/loganreltexx/loganreltexx-vendor.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi
@@ -28,10 +28,10 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit from expressltexx
-$(call inherit-product, device/samsung/expressltexx/nfc.mk)
+$(call inherit-product, device/samsung/loganreltexx/nfc.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/expressltexx/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/loganreltexx/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
